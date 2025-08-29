@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/raoul/goharmony"
+	"github.com/kultivator-consulting/goharmony"
 )
 
 // simulateStream simulates receiving chunks of a response

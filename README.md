@@ -2,8 +2,8 @@
 
 A Go implementation of the OpenAI Harmony format parser for structured LLM responses.
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/raoul/goharmony.svg)](https://pkg.go.dev/github.com/raoul/goharmony)
-[![Go Report Card](https://goreportcard.com/badge/github.com/raoul/goharmony)](https://goreportcard.com/report/github.com/raoul/goharmony)
+[![Go Reference](https://pkg.go.dev/badge/github.com/kultivator-consulting/goharmony.svg)](https://pkg.go.dev/github.com/kultivator-consulting/goharmony)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kultivator-consulting/goharmony)](https://goreportcard.com/report/github.com/kultivator-consulting/goharmony)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
@@ -22,7 +22,7 @@ GoHarmony provides a robust parser for the OpenAI Harmony response format, which
 ## Installation
 
 ```bash
-go get github.com/raoul/goharmony
+go get github.com/kultivator-consulting/goharmony
 ```
 
 ## Quick Start
@@ -32,7 +32,7 @@ package main
 
 import (
     "fmt"
-    "github.com/raoul/goharmony"
+    "github.com/kultivator-consulting/goharmony"
 )
 
 func main() {
@@ -171,4 +171,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [OpenAI Harmony Format Documentation](https://cookbook.openai.com/articles/openai-harmony)
 - [Official Harmony Repository](https://github.com/openai/harmony)
-- [Report Issues](https://github.com/raoul/goharmony/issues)
+- [Report Issues](https://github.com/kultivator-consulting/goharmony/issues)

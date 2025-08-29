@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/raoul/goharmony"
+	"github.com/kultivator-consulting/goharmony"
 )
 
 func main() {

@@ -33,3 +33,6 @@ Thumbs.db
 # Project specific
 /bin/
 /dist/
+
+# Claude Code
+.claude/

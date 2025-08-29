@@ -36,7 +36,7 @@ func simulateStream() <-chan string {
 }
 
 func main() {
-	fmt.Println("=== Streaming Response Handler ===\n")
+	fmt.Println("=== Streaming Response Handler ===")
 
 	parser := goharmony.NewParser()
 	stream := simulateStream()

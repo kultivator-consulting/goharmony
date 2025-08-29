@@ -70,10 +70,10 @@ func NewParser() *Parser {
 // NewParserWithConfig creates a new Harmony format parser with custom configuration
 func NewParserWithConfig(config ParserConfig) *Parser {
 	return &Parser{
-		// Match messages with optional start tag
+		// Match messages with optional start tag and optional end tag
 		messagePattern: regexp.MustCompile(
 			`(?s)(?:<\|start\|>)?(\w+)?<\|channel\|>(\w+)(?:\s+to=([\w.]+))?` +
-				`(?:\s*<\|constrain\|>\w+)?<\|message\|>(.*?)(?:<\|(?:end|call|return)\|>)`,
+				`(?:\s*<\|constrain\|>\w+)?<\|message\|>(.*?)(?:<\|(?:end|call|return)\|>|$)`,
 		),
 		// Match standalone channel markers
 		channelPattern: regexp.MustCompile(
